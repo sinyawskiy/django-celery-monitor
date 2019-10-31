@@ -126,7 +126,7 @@ class Migration(migrations.Migration):
             field=models.ForeignKey(
                 null=True,
                 on_delete=django.db.models.deletion.CASCADE,
-                to='celery_monitor.WorkerState',
+                to='django_celery_monitor.WorkerState',
                 verbose_name='worker'
             ),
         ),
