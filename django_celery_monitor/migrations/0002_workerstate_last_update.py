@@ -8,7 +8,7 @@ import django.utils.timezone
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('celery_monitor', '0001_initial'),
+        ('django_celery_monitor', '0001_initial'),
     ]
 
     operations = [
